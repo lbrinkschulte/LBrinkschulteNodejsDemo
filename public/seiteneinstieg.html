@@ -1,0 +1,1230 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Eigene CSS -->
+  <link rel="stylesheet" href="stylesheets/style.css">
+
+  <title>BMW Locator</title>
+</head>
+
+<body>
+  <!-- Header Navbar -->
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/header/bmw-logo.png" width="30" height="30" class="d-inline-block align-top" alt="bmw-logo">
+      <img src="images/header/bmw-group.png" width="30" height="30" class="d-inline-block align-top" alt="bmw-logo">
+      <img src="images/header/mini-logo.png" width="30" height="30" class="d-inline-block align-top" alt="bmw-logo">
+    </a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">&#8249;</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Roland Weber, FG-6321</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Q292696</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Abmelden</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Header Navbar -->
+
+  <!--Menü image-->
+  <!-- <img src="images/menu.png" height="50" class="d-inline-block align-top" alt="bmw-logo"> -->
+  <!--Menü image-->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron">
+
+    <p class="lead">Bestandsfahrzeuge</p>
+    <hr class="my-4">
+    <div class="row">
+      <div class="col">
+        <h2 class="display-4">Modellreihe</h1>
+      </div>
+    </div>
+    <!-- Row Modellreihe-->
+    <div class="row">
+      <div class="col">
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+          <div class="btn-group mr-2" role="group" aria-label="First group">
+            <button type="button" class="btn btn-secondary active">Alle</button>
+          </div>
+          <div class="btn-group mr-2" role="group" aria-label="Second group">
+            <button type="button" class="btn btn-secondary ">2er</button>
+          </div>
+          <div class="btn-group mr-2" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-secondary">3er</button>
+          </div>
+          <div class="btn-group mr-2" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-secondary">4er</button>
+          </div>
+          <div class="btn-group" role="group" aria-label="Third group">
+            <button type="button" class="btn btn-secondary">5er</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Row Modellreihe-->
+
+    <!-- EMPTY ROW -->
+    <div class="row">
+      <div class="col-sm">
+        <h1 class="display-4"></h1>
+      </div>
+    </div>
+    <!-- EMPTY ROW -->
+
+    <!-- KACHELN-->
+    <div class="row">
+      <div class="col-sm">
+        <div class="card-group">
+          <div class="card">
+            <img class="card-img-top" src="images/kachel-bauform.png" alt="Card image cap">
+            <div class="card-body">
+              <!-- DROPDOWN -->
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-11">
+                        <h2>Bauform.</h5>
+                      </div>
+                      <div class="col-1"></div>
+                    </div>
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h5>Limusine</h5>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h5>Touring</h5>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h5>Coupé</h5>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h5>Grand Tourismo</h5>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h5>Cabrio</h5>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/kachel-motor.png" alt="Card image cap">
+            <div class="card-body">
+              <!-- DROPDOWN -->
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+                  <!-- AUTOMATIK MANUELL -->
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-11">
+                        <h2> Motor.</h5>
+                      </div>
+                      <div class="col-1"></div>
+                    </div>
+                    <!-- BENZIN DIESEL -->
+
+                    <div class="row">
+                      <div class="col-sm">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h6>Benzin</h5>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h6>Diesel</h6>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h6>E-Antrieb</h6>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--AUTOMATIK-->
+                    <div class="row">
+                      <div class="col-sm">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h6>Automatik</h6>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h6>Manuell</h6>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm">
+                        <h6></h6>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- xDRIVE sDRIVE -->
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-sm">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h6>xDrive</h5>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h6>sDrive</h6>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="col-sm">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h6>Frontantrieb</h6>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="dropdown-divider"></div>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h5>BMW 320i Lim</h5>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h5>BMW 330i Lim</h5>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h5>BMW 318d Lim</h5>
+                          </label>
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                          <label class="form-check-label" for="dropdownCheck">
+                            <h5>BMW 320d Lim</h5>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/kachel-lack.png" alt="Card image cap">
+            <div class="card-body">
+              <p>
+                <a class="btn btn-secondary" data-toggle="collapse" href="#collapseLack" role="button"
+                  aria-expanded="false" aria-controls="collapseLack">
+                  +
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/kachel-polster.png" alt="Card image cap">
+            <div class="card-body">
+              <p>
+                <a class="btn btn-secondary" data-toggle="collapse" href="#collapsePolster" role="button"
+                  aria-expanded="false" aria-controls="collapsePolster">
+                  +
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/kachel-ausstattung.png" alt="Card image cap">
+            <div class="card-body">
+              <p>
+                <a class="btn btn-secondary" data-toggle="collapse" href="#collapseAusstattung" role="button"
+                  aria-expanded="false" aria-controls="collapseAusstattung">
+                  +
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="images/kachel-aktionen.png" alt="Card image cap">
+            <div class="card-body">
+              <p>
+                <a class="btn btn-secondary" data-toggle="collapse" href="#collapseAktionen" role="button"
+                  aria-expanded="false" aria-controls="collapseAktionen">
+                  +
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- KACHELN-->
+
+    <!-- EMPTY ROW -->
+    <div class="row">
+      <div class="col">
+        <h1 class="display-4"></h1>
+      </div>
+    </div>
+    <!-- EMPTY ROW -->
+
+    <!-- LACKFILTER -->
+    <div class="collapse" id="collapseLack">
+      <div class="card card-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-10">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p class="h5">Uni</p>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Schwarz Uni
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Alpinweiß Uni
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <p class="h5">Metallic</p>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Saphirschwarz metallic
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Melbourne Rot metallic
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Glaciersilber metallic
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Mineralweiß metallic
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Mineralgrau metallic
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Estoril Blau metallic
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <p class="h5">BMW Individual</p>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Citrinschwarz metallic
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Champagner Quarz metallic
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" name="lackfilter" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Rauchtopas metallic
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <input type="checkbox" onClick="toggle(this)" /> Alle auswählen<br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LACKFILTER -->
+
+    <!-- POLSTERFILTER -->
+    <div class="collapse" id="collapsePolster">
+      <div class="card card-body">
+        Polsterfilter
+      </div>
+    </div>
+    <!-- POLSTERFILTER -->
+
+    <!-- AUSSTATTUNGSFILTER -->
+    <div class="collapse" id="collapseAusstattung">
+      <div class="card card-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p class="h5">Multimedia</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      BMW Apps
+                    </label>
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="right"
+                      title="Ermöglicht die Interaktion von Apple iPhone Applikationen (Apps) in das Fahrzeug.">
+                      i
+                    </button>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Navigationssystem
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Freisprecheinrichtung
+                    </label>
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="right"
+                      title="Mit erweiteter Smartphone Anbindung.">
+                      i
+                    </button>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      USB Schnittstelle
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Internet
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <p class="h5">E-Mobilität</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Schnell-Laden Wechselstrom/Gleichstrom
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Wärmepumpe
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <p class="h5">Antrieb und Fahrwerk</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Adaptive Drive / Dynamic Drive
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Dynamische Dämpfer Control
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Aktivlenkung
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p class="h5">Umwelt und Sicherheit</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Adaptives Kurvenlicht
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      LED-Licht
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Driving Assistent Plus
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <p class="h5">Exterieur</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Anhängerkupplung
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Dachreling
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Schiebedach
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <p class="h5">Fahrerassistenz</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Geschwindigkeitsregulierung
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Aktive Geschwindigkeitsregulierung
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Head Up Display
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Night Vision
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <p class="h5">Editionen und Pakete</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Sportpaket/ M Sportpaket
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Comfort Paket
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      ConnectedDrive Service Paket
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <p class="h5">Komfort und Innenausstattung</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Automatische Heckklappenbetätigung
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Dritte Sitzreihe
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Aktive Sitzbelüftung
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Aktivsitze
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Kompfortsitze
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Sitzheizung
+                    </label>
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="right"
+                      title="Besonders praktisch im Winter.">
+                      i
+                    </button>
+                  </div>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Lenkradheizung
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <p class="h5">Individualumfänge</p>
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Individualausstattungen
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- AUSSTATTUNGSFILTER -->
+
+    <!-- AKTIONENFILTER -->
+    <div class="collapse" id="collapseAktionen">
+      <div class="card card-body">
+        Aktionenfilter
+      </div>
+    </div>
+    <!-- AKTIONENFILTER -->
+
+    <!-- EMPTY ROW -->
+    <div class="row">
+      <div class="col">
+        <h1 class="display-4"></h1>
+      </div>
+    </div>
+    <!-- EMPTY ROW -->
+
+    <!-- GEFUNDENE FAHRZEUGE -->
+    <div class="row">
+      <div class="col">
+        <p>
+          <button class="btn btn-secondary btn-lg btn-block text-left" type="button" data-toggle="collapse"
+            data-target="#collapseGefundeneFahrzeuge" aria-expanded="false" aria-controls="collapseGefundeneFahrzeuge">
+            Gefundene Fahrzeuge (5 Einträge)
+          </button>
+        </p>
+        <div class="collapse" id="collapseGefundeneFahrzeuge">
+          <div class="card card-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                  <select class="custom-select custom-select-sm">
+                    <option selected>Preis aufsteigend</option>
+                    <option value="1">Preis absteigend</option>
+                    <option value="2">Km aufsteigend</option>
+                    <option value="3">Km absteigend</option>
+                    <option value="4">Leistung aufsteigend</option>
+                    <option value="5">Leistung absteigend</option>
+                    <option value="6">CO2 Werte aufsteigend</option>
+                    <option value="7">CO2 Werte absteigend</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <ul class="list-group list-group-flush">
+                    <div class="container-fluid">
+                      <!--Fahrzeug 1-->
+                      <li class="list-group-item">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <!-- 1. Spalte: Fahrzeugbild -->
+                            <div class="col">
+                              <img src="images/fahrzeuge/fahrzeug1.png" alt="Fahrzeug 1" class="img-thumbnail">
+                            </div>
+                            <!-- 2. Spalte:  -->
+                            <div class="col-8">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col">
+                                    <p class="h4">BMW 330d xDrive Gran Turismo</p>
+                                  </div>
+                                </div>
+                                <!-- Fahrzeugspezifikation -->
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/1.png" alt="B1" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">10/2018</p>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/2.png" alt="B2" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">10.071 km</p>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/3.png" alt="B3" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">190 kW (258 PS)</p>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/4.png" alt="B4" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">Sport-Automatic Getriebe</p>
+
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/5.png" alt="B5" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">schwarz metallic</p>
+
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/6.png" alt="B6" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">Leder schwarz</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-auto">
+                                    <p><small>Kraftstoffverbr. (komb./innerorts)**: 6,0/7,1/5,4/100km; CO2-Emission
+                                        (komb.)**: 158 g/km; Effizienzklasse: D</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 3. Spalte:  -->
+                            <div class="col-md-auto">
+                              <div class="row">
+                                <div class="col text-right">
+                                  <p class="h5">80.085,00€ brutto*</p>
+                                </div>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="detailansicht.html"
+                                  role="button">Detailansicht</a>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" onclick="fahrzeugBestellen();" href="..."
+                                  role="button">Fahrzeug bestellen</a>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="fahrzeugreservieren.html"
+                                  role="button">Fahrzeug
+                                  reservieren</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--Fahrzeug 1-->
+                      <!--Fahrzeug 2-->
+                      <li class="list-group-item">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <!-- 1. Spalte: Fahrzeugbild -->
+                            <div class="col">
+                              <img src="images/fahrzeuge/fahrzeug2.png" alt="Fahrzeug 2" class="img-thumbnail">
+                            </div>
+                            <!-- 2. Spalte:  -->
+                            <div class="col-8">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col">
+                                    <p class="h4">BMW 320d xDrive Limusine</p>
+                                  </div>
+                                </div>
+                                <!-- Fahrzeugspezifikation -->
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/1.png" alt="B1" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">03/2019</p>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/2.png" alt="B2" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">10 km</p>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/3.png" alt="B3" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">140 kW (190 PS)</p>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/4.png" alt="B4" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">Sport-Automatic Getriebe</p>
+
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/5.png" alt="B5" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">blau metallic</p>
+
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/6.png" alt="B6" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">Leder schwarz</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-auto">
+                                    <p><small>Kraftstoffverbr. (komb./innerorts)**: 6,0/7,1/5,4/100km; CO2-Emission
+                                        (komb.)**: 158 g/km; Effizienzklasse: D</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 3. Spalte:  -->
+                            <div class="col-md-auto">
+                              <div class="row">
+                                <div class="col text-right">
+                                  <p class="h5">80.085,00€ brutto*</p>
+                                </div>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="detailansicht.html"
+                                  role="button">Detailansicht</a>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" onclick="fahrzeugBestellen();" href="..."
+                                  role="button">Fahrzeug bestellen</a>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="..." role="button">Fahrzeug
+                                  reservieren</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--Fahrzeug 2-->
+                      <!--Fahrzeug 3-->
+                      <li class="list-group-item">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <!-- 1. Spalte: Fahrzeugbild -->
+                            <div class="col">
+                              <img src="images/fahrzeuge/fahrzeug3.png" alt="Fahrzeug 1" class="img-thumbnail">
+                            </div>
+                            <!-- 2. Spalte:  -->
+                            <div class="col-8">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col">
+                                    <p class="h4">BMW 330i Limusine</p>
+                                  </div>
+                                </div>
+                                <!-- Fahrzeugspezifikation -->
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/1.png" alt="B1" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">03/2019</p>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/2.png" alt="B2" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">4.102 km km</p>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/3.png" alt="B3" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">190 kW (258 PS)</p>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/4.png" alt="B4" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">Sport-Automatic Getriebe</p>
+
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/5.png" alt="B5" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">schwarz metallic</p>
+
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/6.png" alt="B6" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">Leder schwarz</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-auto">
+                                    <p><small>Kraftstoffverbr. (komb./innerorts)**: 5,9/7,4/5,0/100km; CO2-Emission
+                                        (komb.)**: 134 g/km; Effizienzklasse: B</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 3. Spalte:  -->
+                            <div class="col-md-auto">
+                              <div class="row">
+                                <div class="col text-right">
+                                  <p class="h5">86.950,00€ brutto*</p>
+                                </div>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="detailansicht.html"
+                                  role="button">Detailansicht</a>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="..." role="button">Fahrzeug
+                                  bestellen</a>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="..." role="button">Fahrzeug
+                                  reservieren</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--Fahrzeug 3-->
+                      <!--Fahrzeug 4-->
+                      <li class="list-group-item">
+                        <div class="container-fluid">
+                          <div class="row">
+                            <!-- 1. Spalte: Fahrzeugbild -->
+                            <div class="col">
+                              <img src="images/fahrzeuge/fahrzeug4.png" alt="Fahrzeug 1" class="img-thumbnail">
+                            </div>
+                            <!-- 2. Spalte:  -->
+                            <div class="col-8">
+                              <div class="container-fluid">
+                                <div class="row">
+                                  <div class="col">
+                                    <p class="h4">BMW 330d xDrive Touring</p>
+                                  </div>
+                                </div>
+                                <!-- Fahrzeugspezifikation -->
+                                <div class="row">
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/1.png" alt="B1" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">03/2019</p>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/2.png" alt="B2" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">5.000 km</p>
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/3.png" alt="B3" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">190 kW (258 PS)</p>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col">
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/4.png" alt="B4" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">Sport-Automatic Getriebe</p>
+
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/5.png" alt="B5" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">grau metallic</p>
+
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                      <div class="col-md-auto">
+                                        <img src="images/fahrzeug-icons/6.png" alt="B6" height="25" width="25">
+                                      </div>
+                                      <div class="col">
+                                        <p class="text-sm-left">Leder schwarz</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="row">
+                                  <div class="col-md-auto">
+                                    <p><small>Kraftstoffverbr. (komb./innerorts)**: 6,0/7,1/5,3/100km; CO2-Emission
+                                        (komb.)**: 157 g/km; Effizienzklasse: B</small></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- 3. Spalte:  -->
+                            <div class="col-md-auto">
+                              <div class="row">
+                                <div class="col text-right">
+                                  <p class="h5">80.807,00€ brutto*</p>
+                                </div>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="detailansicht.html"
+                                  role="button">Detailansicht</a>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="..." role="button">Fahrzeug
+                                  bestellen</a>
+                              </div>
+                              <div class="row mt-1">
+                                <a class="btn-secondary btn-block btn-sm" href="..." role="button">Fahrzeug
+                                  reservieren</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <!--Fahrzeug 4-->
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- GEFUNDENE FAHRZEUGE -->
+  </div>
+  <!-- Jumbotron -->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+    <!-- Copyright -->
+    <p><small>* MwSt. ausweisbar
+        ** Alle Angaben zu Kraftstoffverbrauch, CO2-Emission und Effizienzklassen gelten für die Räderkategorie
+        Serienrad. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen
+        CO2-Emissionen neuer Personenkraftwagen können dem "Leitfaden über den Kraftstoffverbrauch, die CO2-Emissionen
+        und den Stromverbrauch neuer Personenkraftwagen" entnommen werden, der an allen Verkaufsstellen, bei der
+        Deutschen Automobil Treuhand GmbH (DAT), Hellmuth-Hirth-Str. 1, 73760 Ostfildern-Scharnhausen, und unter
+        https://www.dat.de/co2/ unentgeltlich erhältlich ist.
+        Gesetzlicher Hinweis
+        Alle Angaben sind unverbindlich. Irrtum vorbehalten.</small></p>
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Felix & Luisa</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- Eigene JS -->
+  <script src="javascript.js"></script>
+</body>
+
+</html>

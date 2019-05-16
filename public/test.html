@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Eigene CSS -->
+  <link rel="stylesheet" href="stylesheets/style.css">
+
+  <!-- Titel -->
+  <title>TEST</title>
+</head>
+
+<body>
+  <!-- Header Navbar -->
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="images/header/bmw-logo.png" width="30" height="30" class="d-inline-block align-top" alt="bmw-logo">
+    </a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">&#8249;</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Roland Weber, FG-6321</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Q292696</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">|</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Abmelden</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Header Navbar -->
+
+  <!-- PREVIOUS & NEXT BUTTONS-->
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">PREVIOUS & NEXT BUTTONS</h5>
+      <a href="#" class="previous">&laquo; Previous</a>
+      <a href="#" class="next">Next &raquo;</a>
+
+      <a href="#" class="previous round">&#8249;</a>
+      <a href="#" class="next round">&#8250;</a>
+    </div>
+  </div>
+  <!-- PREVIOUS & NEXT BUTTONS-->
+
+  <div class="card text-center">
+      <div class="card-body">
+        <h5 class="card-title">BUTTON CHANGES TEXT</h5>
+        <input type="button" value="Open Curtain" onclick="return change(this);" />
+      </div>
+    </div>
+
+  <!-- Popover Example -->
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Popover Example</h5>
+      <div class="row">
+        <div class="col">
+          <h1 class="display-4"></h1>
+          <button class="btn btn-primary" id="btnPopover" title="Popover Title" data-toggle="tooltip">
+            Popover Example
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Popover Example -->
+
+  <!-- Kategorien Filter -->
+  <div class="card text-center">
+    <div class="card-body">
+      <h5 class="card-title">Kategorien Filter</h5>
+      <!-- Control buttons -->
+      <div id="myBtnContainer">
+        <button class="button active" onclick="filterSelection('all')"> Show all</button>
+        <button class="button" onclick="filterSelection('cars')"> Cars</button>
+        <button class="button" onclick="filterSelection('animals')"> Animals</button>
+        <button class="button" onclick="filterSelection('fruits')"> Fruits</button>
+        <button class="button" onclick="filterSelection('colors')"> Colors</button>
+      </div>
+      <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+      <div class="container">
+        <div class="filterDiv cars">BMW</div>
+        <div class="filterDiv colors fruits">Orange</div>
+        <div class="filterDiv cars">Volvo</div>
+        <div class="filterDiv colors">Red</div>
+        <div class="filterDiv cars animals">Mustang</div>
+        <div class="filterDiv colors">Blue</div>
+        <div class="filterDiv animals">Cat</div>
+        <div class="filterDiv animals">Dog</div>
+        <div class="filterDiv fruits">Melon</div>
+        <div class="filterDiv fruits animals">Kiwi</div>
+        <div class="filterDiv fruits">Banana</div>
+        <div class="filterDiv fruits">Lemon</div>
+        <div class="filterDiv animals">Cow</div>
+      </div>
+    </div>
+  </div>
+  <!-- Kategorien Filter -->
+
+  <!-- Sortierung -->
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Sortierung</h5>
+      <button onclick="sortList()">Sort</button>
+      <ul id="id01">
+        <li>Oslo</li>
+        <li>Stockholm</li>
+        <li>Helsinki</li>
+        <li>Berlin</li>
+        <li>Rome</li>
+        <li>Madrid</li>
+      </ul>
+    </div>
+  </div>
+  <!-- Sortierung -->
+
+  <!-- Sortierung -->
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Sortierung</h5>
+      <p>Click the button to sort the array.</p>
+      <button onclick="myFunction()">Try it</button>
+      <p id="demo"></p>
+    </div>
+  </div>
+  <!-- Sortierung -->
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small blue">
+    <!-- Copyright -->
+    <p><small>* MwSt. ausweisbar
+        ** Alle Angaben zu Kraftstoffverbrauch, CO2-Emission und Effizienzklassen gelten für die Räderkategorie
+        Serienrad. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen
+        CO2-Emissionen neuer Personenkraftwagen können dem "Leitfaden über den Kraftstoffverbrauch, die CO2-Emissionen
+        und den Stromverbrauch neuer Personenkraftwagen" entnommen werden, der an allen Verkaufsstellen, bei der
+        Deutschen Automobil Treuhand GmbH (DAT), Hellmuth-Hirth-Str. 1, 73760 Ostfildern-Scharnhausen, und unter
+        https://www.dat.de/co2/ unentgeltlich erhältlich ist.
+        Gesetzlicher Hinweis
+        Alle Angaben sind unverbindlich. Irrtum vorbehalten.</small></p>
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> Felix & Luisa</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- Eigene JS -->
+  <script src="javascript.js"></script>
+</body>
+
+</html>
